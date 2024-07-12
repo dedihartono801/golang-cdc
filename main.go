@@ -14,9 +14,9 @@ func main() {
 		ServerID: 100,
 		Flavor:   "mysql",
 		Host:     "localhost",
-		Port:     3307,
+		Port:     3306,
 		User:     "root",
-		Password: "opklnm123",
+		Password: "****",
 	}
 	syncer := replication.NewBinlogSyncer(cfg)
 
